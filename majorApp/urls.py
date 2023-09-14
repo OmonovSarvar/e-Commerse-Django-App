@@ -1,1 +1,1 @@
-print('ji')
+from django.urls import pathfrom majorApp import viewsurlpatterns = [    path('', views.home)]
